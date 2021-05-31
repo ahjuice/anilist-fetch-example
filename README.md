@@ -1,0 +1,1 @@
+# anilist-fetch-example
