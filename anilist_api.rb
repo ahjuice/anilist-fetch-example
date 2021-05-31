@@ -1,7 +1,6 @@
 require "graphql/client"
 require "graphql/client/http"
 
-# Star Wars API example wrapper
 module AnilistAPI
   # Configure GraphQL endpoint using the basic HTTP network adapter.
   HTTP = GraphQL::Client::HTTP.new("https://graphql.anilist.co") do
